@@ -1,0 +1,69 @@
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Raleway";
+  // адрес шрифта и тип
+  src: url("fonts/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.advert {
+  width: 361px;
+  height: 712.96px;
+  background: white;
+
+  .image {
+    width: 100%;
+    height: 264.81px;
+  }
+
+  .title {
+    width: 100%;
+    height: 53.98px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .square {
+    width: 100%;
+    height: 39.72px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .info {
+    width: 100%;
+    height: 343.24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: start;
+    text-align: center;
+
+    color: #000000;
+
+    margin-top: 30px;
+  }
+}

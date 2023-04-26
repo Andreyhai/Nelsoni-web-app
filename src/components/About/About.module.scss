@@ -1,0 +1,42 @@
+.main {
+  margin: 0 auto;
+  width: 1440px;
+  height: 700px;
+  background: white;
+  border-bottom: 1px solid #000000;
+  .tittle {
+    margin: 130px auto;
+    width: 316px;
+    height: 89.73px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .info {
+    width: 733px;
+    height: 279.14px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    margin: 0 auto;
+  }
+}

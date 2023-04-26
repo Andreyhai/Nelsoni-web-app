@@ -1,0 +1,96 @@
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Raleway";
+  // адрес шрифта и тип
+  src: url("fonts/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1440px;
+  height: 917px;
+  background: #7F7F8A;
+
+  .wrapper {
+    display: flex;
+  }
+  .tittles {
+    color: #F1D541;
+    width: 622px;
+    .tittle {
+      width: 622px;
+      height: 89px;
+
+      padding: 132px 0 24px 79px;
+
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 128px;
+      line-height: 150px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #0D1453;
+    }
+    .subtitle {
+      width: 371px;
+      height: 81px;
+
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      padding-left: 79px;
+      color: #123C53;
+    }
+  }
+
+  .image {
+    margin-left: 198px;
+    margin-top: 94px;
+    width: 442px;
+    height: 254px;
+  }
+
+  .wrapperb {
+    display: flex;
+    margin-top: 372px;
+    margin-left: 551px;
+    .button {
+      background: transparent;
+      border: 2px solid black;
+    }
+  }
+  button {
+      background: #F47D27;
+      border-radius: 15px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 274px;
+    height: 87px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+    color: #FFFFFF;
+    border: none;
+  }
+}

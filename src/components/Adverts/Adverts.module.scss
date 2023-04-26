@@ -1,0 +1,15 @@
+.main {
+  margin: 0 auto;
+  width: 1440px;
+  height: 1038px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrapper {
+    width: 1233px;
+    height: 715px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 75px;
+  }
+}
