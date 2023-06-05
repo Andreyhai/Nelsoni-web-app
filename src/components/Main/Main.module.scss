@@ -10,24 +10,30 @@
   padding: 0;
   margin: 0;
 }
-
+.x {
+  background: #7F7F8A;
+  width: 100%;
+}
 .main {
   margin: 0 auto;
-  width: 1440px;
   height: 917px;
   background: #7F7F8A;
+  max-width: 1677px;
+  min-width: 1200px;
 
   .wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .tittles {
     color: #F1D541;
     width: 622px;
+    justify-self: start;
     .tittle {
       width: 622px;
       height: 89px;
 
-      padding: 132px 0 24px 79px;
+      padding: 132px 0 24px 179px;
 
       font-family: 'Raleway';
       font-style: normal;
@@ -52,28 +58,33 @@
       display: flex;
       align-items: center;
       text-align: left;
-      padding-left: 79px;
+      padding-left: 179px;
       color: #123C53;
     }
   }
 
   .image {
-    margin-left: 198px;
+    margin-left: 100px;
     margin-top: 94px;
-    width: 442px;
-    height: 254px;
+    width: 642px;
+    height: 454px;
   }
 
   .wrapperb {
-    display: flex;
-    margin-top: 372px;
-    margin-left: 551px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    padding: 0 300px;
+    //margin-left: 551px;
     .button {
       background: transparent;
       border: 2px solid black;
+      justify-self: end;
     }
   }
   button {
+    cursor: pointer;
       background: #F47D27;
       border-radius: 15px;
       display: flex;
@@ -89,8 +100,28 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 120px;
+    //margin-left: 120px;
     color: #FFFFFF;
     border: none;
+    justify-self: start;
   }
+
+  .open-modal-btn {
+    background: #fff;
+    padding: 18px 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 23px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease-in-out; }
+  .open-modal-btn:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); }
+  .open-modal-btn:active {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transform: translateY(0); }
 }

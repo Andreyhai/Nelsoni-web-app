@@ -1,0 +1,37 @@
+.contacts {
+  margin: 0 auto;
+  width: 1440px;
+  &__title {
+    /* подзаголовок */
+    margin: 130px 0 200px 0;
+    width: 100%;
+    font-family: 'Gayathri Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  }
+  &__subtitle {
+    //margin-top: 30px;
+    //width: 271.28px;
+    //height: 84.6px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #000000;
+    //grid-row: 2/3;
+    //margin-left: 20px;
+  }
+}

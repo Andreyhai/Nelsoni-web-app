@@ -9,20 +9,18 @@ import Works from "../components/Works/Works";
 import Stages from "../components/Stages/Stages";
 import Contacts from "../components/Contacts/Contacts";
 import Footer from "../components/Footer/Footer";
-const Home = () => {
+
+const ServicesPage = () => {
 
     return (
         <div>
             <Header />
             <Main />
-            <About />
             <Adverts />
-            <Works />
-            <Stages />
             <Contacts />
             <Footer />
         </div>
     );
 };
 
-export default Home;
+export default ServicesPage;

@@ -5,15 +5,12 @@ import stylesAdverts from "./Adverts.module.css";
 import image1 from "./images/img.png"
 import image2 from "./images/facade_4.jpg"
 import image3 from "./images/images_23.jpg"
-
 import Advert from "../Advert/Advert";
+
+
 
 const Adverts = () => {
 
-    const x = [
-        'буквы, цифры, фигуры, логотипы, животные и тд.',
-        'В услугу входят бесплатные консультации с нашими дизайнерами, замеры , расчет.'
-    ]
     const data=  [
         {
             url: image1,
@@ -43,6 +40,8 @@ const Adverts = () => {
             flag: 'В услугу входят бесплатные консультации с нашими дизайнерами, замеры , расчет.'
         }
     ]
+
+
 
     return (
         <div className={stylesAdverts.main}>
